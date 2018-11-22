@@ -1,0 +1,12 @@
+import numpy as np
+A = np.array([[1,1],[0,1]])
+B = np.array([[2,0],[3,4]])
+print(A)
+print("----------")
+print(B)
+print("----------")
+print(A*B)
+print("----------")
+print(A.dot(B))
+print("----------")
+print(np.dot(A,B))

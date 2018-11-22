@@ -1,0 +1,10 @@
+import numpy as np
+print(np.arange(15))
+a = np.arange(15).reshape(3,5)
+print(a)
+print("该矩阵的形状是：{}".format(a.shape))
+print("该矩阵中元素的数据类型是：{}".format(a.dtype.name))
+print("该矩阵维度是：{}".format(a.ndim))
+print("该矩阵中的数据个数是：{}".format(a.size))
+print("该矩阵各行元素之和为：{}".format(a.sum(axis=1)))
+print("该矩阵各列元素之和为：{}".format(a.sum(axis=0)))
